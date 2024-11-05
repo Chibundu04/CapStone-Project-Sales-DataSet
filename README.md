@@ -21,9 +21,9 @@ This analysis aims to identify sales trends, top-performing products, and region
 ## Visualizations
 # Sales Trend Analysis
 
-![Sales Trend Analysis](https://github.com/user-attachments/assets/79286b66-9538-46f5-90e4-e5b998eee8f5)
+![WhatsApp Image 2024-11-05 at 23 12 32_59618060](https://github.com/user-attachments/assets/81e32b09-ba10-41ac-afd2-53d06d51a18f)
 
-# Rdegional Sales Performance
+# Regional Sales Performance
 ![Regional Sales Performance](https://github.com/user-attachments/assets/781b4c14-a1f3-44e8-9dcd-34f73e81ace5)
 
 # Top-Performing Products
