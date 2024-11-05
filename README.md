@@ -27,7 +27,7 @@ This analysis aims to identify sales trends, top-performing products, and region
 ![Regional Sales Performance](https://github.com/user-attachments/assets/781b4c14-a1f3-44e8-9dcd-34f73e81ace5)
 
 # Top-Performing Products
-![Top Performing Products](https://github.com/user-attachments/assets/cc1ea9b7-6124-4543-b8fd-d781b698b9d0)
+![Top Performing Products](https://github.com/user-attachments/assets/cc1ea9b7-6124-4543-b8fd-d781b698b9
 
 ## Pivot Summarization
 # Total sales by Product
@@ -36,6 +36,30 @@ This analysis aims to identify sales trends, top-performing products, and region
 # Sales By Region
 ![Total Sales By Region ](https://github.com/user-attachments/assets/ae813479-acd6-42ce-9599-1f5884902da2)
 
+## SQL Queries
+
+``
+select * FROM [CapStone Prjoect Excel File ]
+
+``|sql
+SELECT 
+    Region, 
+    COUNT(DISTINCT OrderID) AS Number_of_Sales_Transactions
+FROM 
+    [CapStone Prjoect Excel File ]
+GROUP BY 
+    Region;
+
+``|sql
+SELECT 
+    Product, 
+    SUM(CAST(Quantity AS int) * CAST(UnitPrice AS int)) AS Total_Sales_Value
+FROM 
+    [CapStone Prjoect Excel File ]
+GROUP BY 
+    Product
+ORDER BY 
+    Total_Sales_Value DESC
 ## Conclusion 
 This analysis provides insights into sales trends, top-performing products, and regional performance.
 
