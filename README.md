@@ -36,6 +36,9 @@ This analysis aims to identify sales trends, top-performing products, and region
 # Sales By Region
 ![Total Sales By Region ](https://github.com/user-attachments/assets/ae813479-acd6-42ce-9599-1f5884902da2)
 
+# Average Sales Per Region
+![Average Sales Per Region](https://github.com/user-attachments/assets/30fbd9de-14d9-4c83-9385-a37ceab19488)
+
 ## SQL Queries
 
 ``
@@ -72,5 +75,4 @@ This analysis provides insights into sales trends, top-performing products, and 
 - Expand analysis to include additional data
 - Explore machine learning models for sales forcasting
 
-# Average Sales Per Region
-![Average Sales Per Region](https://github.com/user-attachments/assets/30fbd9de-14d9-4c83-9385-a37ceab19488)
+
